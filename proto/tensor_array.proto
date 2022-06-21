@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package avatar;
+
+import "tensorflow/core/framework/tensor.proto";
+
+message TensorArrayProto {
+     repeated tensorflow.TensorProto tensors = 1;
+}

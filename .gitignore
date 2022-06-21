@@ -1,0 +1,10 @@
+.vscode/**
+**/*.pyc
+**/*.so
+
+.idea
+.vscode
+build
+dist
+test
+*.egg-info
